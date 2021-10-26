@@ -25,4 +25,7 @@ int swap(int *i, int *j);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+void quicksort(int *array, int beg, int end, int size);
+int partioner(int *array, int beg, int end, int size);
 #endif /* SORT_H */
