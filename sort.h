@@ -5,6 +5,7 @@
 #include <stddef.h>
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 
 /**
  * struct listint_s - Doubly linked list node
@@ -28,4 +29,7 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void quicksort(int *array, int beg, int end, int size);
 int partioner(int *array, int beg, int end, int size);
+void counting_sort(int *array, size_t size);
+int k_finder(int *array, size_t size);
+
 #endif /* SORT_H */
